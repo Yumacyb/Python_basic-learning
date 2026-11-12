@@ -1,6 +1,6 @@
 #导入两个核心库
-import requests #发送HTTP网络请求
-import re #正则表达式库，用于文本匹配
+import requests#发送HTTP网络请求
+import re#正则表达式库，用于文本匹配
 print("正在获取网页源代码...")
 #构建目标网址，实际上是向https://www.bing.com/search?q=test发送请求
 #及在必应搜索关键词"text"
