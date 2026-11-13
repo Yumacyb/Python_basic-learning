@@ -1,6 +1,6 @@
 import requests
 import re
-print("正在潜入北京印刷学院官网...")
+print("正在潜入官网...")
 url="https://www.bigc.edu.cn/"
 headers={"User-Agent":"Mozilla/5.0"}
 response=requests.get(url,headers=headers)
